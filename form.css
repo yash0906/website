@@ -1,0 +1,66 @@
+table{
+  border-collapse: collapse;
+  border: 5px solid tomato;
+  font-size: 32px;
+  border-radius: 50px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50px;
+  
+  background-color: tomato;
+  color: white;
+}
+td{
+  padding :8px;
+  border-radius: 50px;
+
+}
+.submit_button{
+  color: #4CAF50;
+  font-size: 26px;
+  border-radius: 50px;
+
+}
+.submit_button:hover{
+  opacity: .3;
+  background-color: black;
+  border-color: #fff;
+  
+  
+}
+body{
+  background-image: url('images/beat.gif');
+  background-size: 100% 100vh;
+}
+table {
+  border-collapse: collapse;
+  border-radius: 50px;
+  
+}
+
+th, td {
+  border-radius: 5px;
+  
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) {background-color: #ababab;}
+
+.center{
+  text-align : center;
+}
+button {
+  background-color: tomato; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 45%;
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="form.css">
+  <title>form submit</title>
+  <script type="text/javascript" src="form.js"></script>
+</head>
+<body onload="doShowAll()">
+<form name="feedback">
+<table border="5" align="center">
+<tr>
+   <th colspan="2" align="center"> Send Feedback </th>
+  </tr>
+  <tr>
+     <td colspan="2" ><input type="text" name="name" placeholder="NAME" style="font-size: 24px;"></input></td> 
+  </tr>
+         <tr>
+     
+<td colspan ="2">
+<textarea type="text" name="skill" placeholder="SKILL" cols="55" rows="6" style="font-size: 24px;" ></textarea>
+ </td> 
+
+  </tr>
+ <tr>
+    <td style="font-size: 24px;"> LEVEL </td> 
+<td>
+<select name="level" style="font-size: 16px;" >
+  <option value="proficient">Proficient</option>
+  <option value="intermediate">Intermediate</option>
+  <option value="beginner">Beginner</option>
+  
+</select>
+
+ </td> 
+  </tr>
+  
+  <tr>
+   <td colspan="2" align="center"> <input type="submit" value="submit" onclick="SaveItem()"class="submit_button"> </td>
+  </tr>
+</table>
+<br>
+      <table id=list align="center" border="5"></table>
+</form>
+<h1 id=counter class="center" style="color: white;"></h1>
+
+<h1 id=text class="center" style="color: white;"></h1>
+<button onclick=like() align="center">your like matters</button>
+</body>
+</html>
